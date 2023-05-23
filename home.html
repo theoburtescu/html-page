@@ -1,0 +1,59 @@
+<head>  
+    <!-- backgorund image -->
+    <style>
+    body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    }
+    </style>
+    <!-- link colors -->
+    <style>
+        a:link {
+           color: white;
+           background-color: transparent;
+           text-decoration: none;
+        }
+        a:visited {
+           color: grey;
+           background-color: transparent;
+           text-decoration: none;
+        }
+        a:active {
+           color: white;
+           background-color: transparent;
+        }
+     </style>
+</head>
+<body>
+    <div class="menu">
+        <ul style="list-style-type: none">
+            <!-- internal links to other pages -->
+            <!-- list -->
+            <li><a href="home.html" color="FFFFFF"> Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+     <!-- scrolling text -->
+    <marquee bgcolor="white" scrollamount="10" scrolldelay = 60 direction="down">
+        <center>
+            <h1 style="color: black"> Here's an embedded YouTube video </h1>
+        </center>
+    </marquee>
+
+    <!-- Embedded YouTube link-->
+    <div class="content">
+        <center>
+            <iframe width="1260" height="715" src="https://www.youtube.com/embed/U5cK0gVOz_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+            <h2>
+                <!-- external link to YouTube page -->
+                This video can also be watched <a href="https://www.youtube.com/watch?v=U5cK0gVOz_Q" target="_blank">here</a>
+            </h2>
+        </center> 
+    </div>
+    
+
+</body>
